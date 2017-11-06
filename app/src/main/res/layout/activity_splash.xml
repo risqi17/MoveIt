@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="com.moveit.moveit.Splash">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:src="@drawable/movit"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/move"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
